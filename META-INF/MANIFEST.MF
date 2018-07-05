@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Automatic-Module-Name: xcore-maven-example
+Bundle-SymbolicName: xcore-maven-example;singleton:=true
+Bundle-Version: 0.2.0.qualifier
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="[2.0.0,3.0.0)";visibility:=reexport,
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.emf.ecore.xcore.lib
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin

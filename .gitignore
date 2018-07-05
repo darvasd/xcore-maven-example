@@ -1,2 +1,5 @@
 java-gen
 target
+.classpath
+.project
+.settings/
